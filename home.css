@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    background: black;
+    color: aqua;
+    font-size: 22px;
+    padding: 15px 15px;
+}
+.logo{
+    font-style: oblique;
+    font-size: 44px;
+    
+}
+img{
+    width: 80px;
+    border: 2px solid rgb(239, 239, 243);
+    border-radius: 25px;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: aqua;
+    font-size:  22px;
+    margin-top: 15px;
+}
+a{
+    color: aqua;
+}
